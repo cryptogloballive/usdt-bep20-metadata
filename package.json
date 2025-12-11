@@ -1,0 +1,10 @@
+{
+  "name": "usdt-bep20-metadata",
+  "version": "1.0.0",
+  "description": "USDT BEP-20 Token Metadata",
+  "main": "tokenlist.json",
+  "files": ["tokenlist.json"],
+  "keywords": ["usdt", "bep20", "stablecoin"],
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}
