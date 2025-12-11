@@ -1,0 +1,12 @@
+{
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "decimals": 18,
+  "website": "https://tether.to",
+  "description": "Tether USD (USDT) BEP-20 – 1:1 USD pegged stablecoin",
+  "support": "https://tether.to/en/support",
+  "social": {
+    "twitter": "https://twitter.com/Tether_to",
+    "telegram": "https://t.me/Tether"
+  }
+}
