@@ -1,0 +1,14 @@
+name: Pin to Pinata IPFS
+on: push: branches: [main]
+jobs:
+  pin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pin folder to Pinata
+        run: |
+          curl -X POST https://api.pinata.cloud/pinning/pinFileToIPFS \
+            -H "Authorization: Bearer ${{ secrets.PINATA_JWT }}" \
+            -F "file=@tokenlist.json" \
+            -F "file=@logo.png" \
+            -F "pinataMetadata=name:usdt-metadata"
